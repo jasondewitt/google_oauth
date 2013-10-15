@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session['user_id'] %}
+    <p>
+    <img src="{{ cur_user.pictureurl }}" /><br />
+    Hello there {{ cur_user.name }}<br />
+    You are signed in with the email {{ cur_user.email }}<br />
+    Click <a href="protected">here</a> to test a protected page<br />
+    </p>
+  {% else %}
+    <p>
+    Hello guest user, please <a href="login">login</a>
+    </p>
+  {% endif %}
+
+{% endblock %}
