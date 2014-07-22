@@ -17,8 +17,8 @@ DB_NAME = 'db_pass'
 
 # You must configure these 3 values from Google APIs console
 # https://code.google.com/apis/console
-GOOGLE_CLIENT_ID = '88969138826.apps.googleusercontent.com'
-GOOGLE_CLIENT_SECRET = 'HOZTTsnFDjMfCelJTuUm5IG7'
+GOOGLE_CLIENT_ID = ''
+GOOGLE_CLIENT_SECRET = ''
 REDIRECT_URI = '/authorized'  # one of the Redirect URIs from Google APIs console
 USERINFO_URL = 'https://www.googleapis.com/oauth2/v1/userinfo'
 
