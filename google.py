@@ -22,7 +22,7 @@ GOOGLE_CLIENT_SECRET = ''
 REDIRECT_URI = '/authorized'  # one of the Redirect URIs from Google APIs console
 USERINFO_URL = 'https://www.googleapis.com/oauth2/v1/userinfo'
 
-ALLOWED_HD = 'cp-tel.com'
+ALLOWED_HD = 'domian.com'   # your domain here
 
 SECRET_KEY = 'development key'
 DEBUG = True
